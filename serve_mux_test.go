@@ -16,7 +16,7 @@ func TestServeMux(t *testing.T) {
 	})
 
 	server := http.Server{
-		Addr:    "localhost:8088",
+		Addr:    "localhost:8080",
 		Handler: mux,
 	}
 

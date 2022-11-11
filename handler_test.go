@@ -12,7 +12,7 @@ func TestHandler(t *testing.T) {
 	}
 
 	server := http.Server{
-		Addr:    "localhost:8081",
+		Addr:    "localhost:8080",
 		Handler: handler,
 	}
 
